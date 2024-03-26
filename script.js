@@ -8,4 +8,4 @@ console.log("Params:", wordBase64);
 const dynamicText = decodeURIComponent(escape(atob(wordBase64)));
 
 console.log("Dynamic Text:", dynamicText);
-document.getElementById('dynamicText').textContent = dynamicText || 'Text';
+document.getElementById('dynamicText').textContent = dynamicText || 'Hello!';
