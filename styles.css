@@ -1,0 +1,18 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#dynamicText {
+  font-size: 5vw; /* Responsive font size based on viewport width */
+  text-align: center;
+  width: 90%;
+}
