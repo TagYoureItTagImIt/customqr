@@ -12,7 +12,7 @@ body, html {
 }
 
 #dynamicText {
-  font-size: 5vw; /* Responsive font size based on viewport width */
+  font-size: 8vw; /* Responsive font size based on viewport width */
   text-align: center;
   width: 90%;
 }
